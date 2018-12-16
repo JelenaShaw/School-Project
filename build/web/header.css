@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.05.2018., 12.01.53
+    Author     : jelenashaw
+*/
+
+footer{
+    background-color: #0088cc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35px;
+    text-align: center;
+    color: #CCC;
+}
+
+footer p {
+    padding: 10.5px;
+    margin: 0px;
+    line-height: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #0088cc;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #0088cc !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.navbar-brand-centered {
+    position: absolute;
+    left: 38%;
+    display: block;
+    width: 400px;
+    text-align: center;
+    background-color: transparent;
+}
+.navbar>.container .navbar-brand-centered, 
+.navbar>.container-fluid .navbar-brand-centered {
+    margin-left: -80px;
+}
